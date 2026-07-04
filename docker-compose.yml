@@ -73,8 +73,8 @@ services:
   api-gateway:
     image: ${DOCKERHUB_USERNAME:-local}/pia-api-gateway:${IMAGE_TAG:-latest}
     build:
-      context: ./services/api-gateway
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: api-gateway/Dockerfile
     container_name: pia-api-gateway
     restart: unless-stopped
     environment:
@@ -92,8 +92,8 @@ services:
   auth-service:
     image: ${DOCKERHUB_USERNAME:-local}/pia-auth-service:${IMAGE_TAG:-latest}
     build:
-      context: ./services/auth-service
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: auth-service/Dockerfile
     container_name: pia-auth-service
     restart: unless-stopped
     environment:
@@ -115,8 +115,8 @@ services:
   cms-service:
     image: ${DOCKERHUB_USERNAME:-local}/pia-cms-service:${IMAGE_TAG:-latest}
     build:
-      context: ./services/cms-service
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: cms-service/Dockerfile
     container_name: pia-cms-service
     restart: unless-stopped
     environment:
@@ -140,8 +140,8 @@ services:
   admission-service:
     image: ${DOCKERHUB_USERNAME:-local}/pia-admission-service:${IMAGE_TAG:-latest}
     build:
-      context: ./services/admission-service
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: admission-service/Dockerfile
     container_name: pia-admission-service
     restart: unless-stopped
     environment:
@@ -162,8 +162,8 @@ services:
   student-service:
     image: ${DOCKERHUB_USERNAME:-local}/pia-student-service:${IMAGE_TAG:-latest}
     build:
-      context: ./services/student-service
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: student-service/Dockerfile
     container_name: pia-student-service
     restart: unless-stopped
     environment:
@@ -181,8 +181,8 @@ services:
   payment-service:
     image: ${DOCKERHUB_USERNAME:-local}/pia-payment-service:${IMAGE_TAG:-latest}
     build:
-      context: ./services/payment-service
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: payment-service/Dockerfile
     container_name: pia-payment-service
     restart: unless-stopped
     environment:
@@ -202,8 +202,8 @@ services:
   notification-service:
     image: ${DOCKERHUB_USERNAME:-local}/pia-notification-service:${IMAGE_TAG:-latest}
     build:
-      context: ./services/notification-service
-      dockerfile: Dockerfile
+      context: ./services
+      dockerfile: notification-service/Dockerfile
     container_name: pia-notification-service
     restart: unless-stopped
     environment:
