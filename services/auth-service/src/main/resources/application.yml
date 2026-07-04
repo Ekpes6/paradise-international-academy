@@ -1,0 +1,41 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/pia_auth?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: pia_user
+    password: PIA_Secure@2024!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: ${REDIS_PASSWORD:}
+      timeout: 3000ms
+
+jwt:
+  secret: ${JWT_SECRET:CHANGE_THIS_TO_A_SECURE_256_BIT_KEY_IN_PRODUCTION}
+  expiration: ${JWT_EXPIRATION:86400000}
+  refresh-expiration: 604800000  # 7 days
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    com.paradise: DEBUG
+    org.springframework.security: WARN

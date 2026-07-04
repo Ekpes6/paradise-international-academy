@@ -1,0 +1,48 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: notification-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/pia_notification?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: pia_user
+    password: PIA_Secure@2024!
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: 5672
+    username: ${RABBITMQ_USER:pia_rabbit}
+    password: ${RABBITMQ_PASS:RabbitMQ_Secure@2024!}
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:noreply@paradiseinternationalacademy.com.ng}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+rabbitmq:
+  exchange: pia.exchange
+  queues:
+    admission: pia.admission.queue
+    payment: pia.payment.queue
+
+school:
+  name: Paradise International Academy
+  email: info@paradiseinternationalacademy.com.ng
+  phone: "+234 800 000 0000"
+  website: https://paradiseinternationalacademy.com.ng
+
+logging:
+  level:
+    com.paradise: DEBUG

@@ -1,0 +1,38 @@
+# .gitignore — Paradise International Academy
+
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+.env.production
+.env.image
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Maven
+services/**/target/
+services/**/*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+*.log
+logs/
+
+# Docker volumes (local)
+mysql-data/
+redis-data/
+minio-data/
