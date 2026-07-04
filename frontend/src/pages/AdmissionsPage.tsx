@@ -7,7 +7,6 @@ import { z } from 'zod'
 import { useState } from 'react'
 import toast from 'react-hot-toast'
 import { FileDown, CheckCircle2 } from 'lucide-react'
-import type { AdmissionApplication } from '@/types'
 import api from '@/lib/api'
 
 const schema = z.object({
