@@ -71,6 +71,7 @@ services:
 
   # ─── API Gateway ──────────────────────────────────────────────────────────────
   api-gateway:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-api-gateway:${IMAGE_TAG:-latest}
     build:
       context: ./services/api-gateway
       dockerfile: Dockerfile
@@ -89,6 +90,7 @@ services:
 
   # ─── Auth Service ─────────────────────────────────────────────────────────────
   auth-service:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-auth-service:${IMAGE_TAG:-latest}
     build:
       context: ./services/auth-service
       dockerfile: Dockerfile
@@ -111,6 +113,7 @@ services:
 
   # ─── CMS Service ──────────────────────────────────────────────────────────────
   cms-service:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-cms-service:${IMAGE_TAG:-latest}
     build:
       context: ./services/cms-service
       dockerfile: Dockerfile
@@ -135,6 +138,7 @@ services:
 
   # ─── Admission Service ────────────────────────────────────────────────────────
   admission-service:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-admission-service:${IMAGE_TAG:-latest}
     build:
       context: ./services/admission-service
       dockerfile: Dockerfile
@@ -156,6 +160,7 @@ services:
 
   # ─── Student Service ──────────────────────────────────────────────────────────
   student-service:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-student-service:${IMAGE_TAG:-latest}
     build:
       context: ./services/student-service
       dockerfile: Dockerfile
@@ -174,6 +179,7 @@ services:
 
   # ─── Payment Service ──────────────────────────────────────────────────────────
   payment-service:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-payment-service:${IMAGE_TAG:-latest}
     build:
       context: ./services/payment-service
       dockerfile: Dockerfile
@@ -194,6 +200,7 @@ services:
 
   # ─── Notification Service ─────────────────────────────────────────────────────
   notification-service:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-notification-service:${IMAGE_TAG:-latest}
     build:
       context: ./services/notification-service
       dockerfile: Dockerfile
@@ -223,6 +230,7 @@ services:
 
   # ─── Frontend ─────────────────────────────────────────────────────────────────
   frontend:
+    image: ${DOCKERHUB_USERNAME:-local}/pia-frontend:${IMAGE_TAG:-latest}
     build:
       context: ./frontend
       dockerfile: Dockerfile
