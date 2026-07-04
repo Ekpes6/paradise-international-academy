@@ -27,7 +27,8 @@ jobs:
       - name: Build & push api-gateway
         uses: docker/build-push-action@v5
         with:
-          context: ./services/api-gateway
+          context: ./services
+          file: ./services/api-gateway/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-api-gateway:${{ env.IMAGE_TAG }}
 
@@ -41,42 +42,48 @@ jobs:
       - name: Build & push auth-service
         uses: docker/build-push-action@v5
         with:
-          context: ./services/auth-service
+          context: ./services
+          file: ./services/auth-service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-auth-service:${{ env.IMAGE_TAG }}
 
       - name: Build & push cms-service
         uses: docker/build-push-action@v5
         with:
-          context: ./services/cms-service
+          context: ./services
+          file: ./services/cms-service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-cms-service:${{ env.IMAGE_TAG }}
 
       - name: Build & push admission-service
         uses: docker/build-push-action@v5
         with:
-          context: ./services/admission-service
+          context: ./services
+          file: ./services/admission-service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-admission-service:${{ env.IMAGE_TAG }}
 
       - name: Build & push student-service
         uses: docker/build-push-action@v5
         with:
-          context: ./services/student-service
+          context: ./services
+          file: ./services/student-service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-student-service:${{ env.IMAGE_TAG }}
 
       - name: Build & push payment-service
         uses: docker/build-push-action@v5
         with:
-          context: ./services/payment-service
+          context: ./services
+          file: ./services/payment-service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-payment-service:${{ env.IMAGE_TAG }}
 
       - name: Build & push notification-service
         uses: docker/build-push-action@v5
         with:
-          context: ./services/notification-service
+          context: ./services
+          file: ./services/notification-service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/pia-notification-service:${{ env.IMAGE_TAG }}
 
