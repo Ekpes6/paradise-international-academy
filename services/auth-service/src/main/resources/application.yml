@@ -29,6 +29,12 @@ jwt:
   expiration: ${JWT_EXPIRATION:86400000}
   refresh-expiration: 604800000  # 7 days
 
+admin:
+  email: ${ADMIN_EMAIL:admin@paradiseinternationalacademy.com.ng}
+  password: ${ADMIN_PASSWORD:ChangeMe@123}
+  firstName: School
+  lastName: Administrator
+
 springdoc:
   api-docs:
     path: /api-docs

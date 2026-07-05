@@ -3,6 +3,7 @@ package com.paradise.auth.service;
 import com.paradise.auth.dto.LoginRequest;
 import com.paradise.auth.dto.LoginResponse;
 import com.paradise.auth.dto.RegisterRequest;
+import com.paradise.auth.entity.Role;
 import com.paradise.auth.entity.User;
 import com.paradise.auth.repository.UserRepository;
 import com.paradise.auth.security.JwtService;
@@ -54,7 +55,7 @@ public class AuthService {
                 .lastName(request.getLastName())
                 .email(request.getEmail())
                 .password(passwordEncoder.encode(request.getPassword()))
-                .role(request.getRole())
+                .role(Role.STUDENT)
                 .enabled(true)
                 .accountNonLocked(true)
                 .build();
