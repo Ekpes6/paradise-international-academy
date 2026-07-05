@@ -30,7 +30,7 @@ public class EventController {
     public ResponseEntity<Event> createEvent(@RequestBody Event event) {
         return ResponseEntity.ok(eventRepository.save(event));
     }
-
+    /*admin role */
     @PutMapping("/{id}")
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Event> updateEvent(@PathVariable Long id, @RequestBody Event updated) {
