@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import { useParams, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Calendar, ArrowLeft, Share2 } from 'lucide-react'
 import { motion } from 'framer-motion'
 
@@ -38,8 +38,6 @@ const article = {
 }
 
 export default function NewsDetailPage() {
-  const { slug } = useParams()
-
   return (
     <>
       <Helmet>

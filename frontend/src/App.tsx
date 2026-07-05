@@ -33,9 +33,6 @@ const pageVariants = {
 function AnimatedRoutes() {
   const location = useLocation()
 
-  // Portals use their own full-screen layout (no shared Header/Footer)
-  const isPortal = location.pathname.startsWith('/portal') || location.pathname.startsWith('/admin')
-
   return (
     <AnimatePresence mode="wait">
       <motion.div key={location.pathname} variants={pageVariants} initial="initial" animate="animate" exit="exit">

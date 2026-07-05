@@ -32,7 +32,7 @@ function PageHero() {
 export default function GalleryPage() {
   const [active, setActive]   = useState('All')
   const [lightbox, setLightbox] = useState<(typeof images)[0] | null>(null)
-  const { ref, inView } = useInView({ threshold: 0.05, triggerOnce: true })
+  const { ref } = useInView({ threshold: 0.05, triggerOnce: true })
 
   const filtered = active === 'All' ? images : images.filter((i) => i.category === active)
 
