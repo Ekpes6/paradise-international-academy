@@ -98,7 +98,6 @@ services:
     restart: unless-stopped
     environment:
       SPRING_PROFILES_ACTIVE: docker
-      SPRING_MAIN_ALLOW_CIRCULAR_REFERENCES: "true"
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/pia_auth?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: ${MYSQL_USER}
       SPRING_DATASOURCE_PASSWORD: ${MYSQL_PASSWORD}
