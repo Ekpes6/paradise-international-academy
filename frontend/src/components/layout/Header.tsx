@@ -124,7 +124,7 @@ export default function Header() {
                 <p className="font-serif font-bold text-primary-700 leading-tight text-lg">
                   Paradise International
                 </p>
-                <p className="text-green-600 text-xs font-semibold uppercase tracking-widest">Academy</p>
+                <p className="text-green-600 text-xs font-semibold uppercase tracking-widest">Academy (Creche &amp; Schools)</p>
               </div>
             </Link>
 

@@ -52,7 +52,7 @@ export default function LoginPage() {
 
   return (
     <>
-      <Helmet><title>Login | Paradise International Academy</title></Helmet>
+      <Helmet><title>Login | Paradise International Academy (Creche and Schools)</title></Helmet>
 
       <div className="min-h-screen grid lg:grid-cols-2">
         {/* Left panel */}

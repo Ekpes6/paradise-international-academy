@@ -16,7 +16,7 @@ const article = {
     <p>We are incredibly proud to announce that our Class of 2025 has achieved a remarkable 98% pass rate in the West African Senior School Certificate Examination (WAEC) — our best result in 20 years of academic excellence.</p>
 
     <h2>Standout Achievements</h2>
-    <p>Of our 72 graduating students, 68 passed in all subjects, and 45 students earned straight distinctions (A1 grades). Three students earned perfect scores across all eight subjects, a first in the history of Paradise International Academy.</p>
+    <p>Of our 72 graduating students, 68 passed in all subjects, and 45 students earned straight distinctions (A1 grades). Three students earned perfect scores across all eight subjects, a first in the history of Paradise International Academy (Creche and Schools).</p>
 
     <blockquote>"This result is a testament to the hard work of our students, the dedication of our teachers, and the unwavering support of parents who partner with us every day." — Mr. Seun Adeyemi, Principal</blockquote>
 
@@ -41,7 +41,7 @@ export default function NewsDetailPage() {
   return (
     <>
       <Helmet>
-        <title>{article.title} | Paradise International Academy</title>
+        <title>{article.title} | Paradise International Academy (Creche and Schools)</title>
         <meta name="description" content={article.title} />
       </Helmet>
 

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 
 const milestones = [
-  { year: '2005', title: 'The Vision is Born',   desc: 'Founders establish Paradise International Academy with a mission to provide world-class education to Nigerian children.' },
+  { year: '2005', title: 'The Vision is Born',   desc: 'Founders establish Paradise International Academy (Creche and Schools) with a mission to provide world-class education to Nigerian children.' },
   { year: '2008', title: 'New Campus Opens',      desc: 'A state-of-the-art campus with science labs, ICT suites, and sports facilities is inaugurated.' },
   { year: '2012', title: 'Cambridge Pathways',   desc: 'International academic programmes added, opening doors to universities across the UK and beyond.' },
   { year: '2018', title: 'National Awards',       desc: 'Recognised as one of Nigeria\'s top private schools with multiple national academic excellence awards.' },

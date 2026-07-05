@@ -99,7 +99,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="font-serif font-bold text-white text-lg leading-tight">Paradise International</p>
-                  <p className="text-yellow-400 text-xs font-semibold uppercase tracking-widest">Academy</p>
+                  <p className="text-yellow-400 text-xs font-semibold uppercase tracking-widest">Academy (Creche &amp; Schools)</p>
                 </div>
               </Link>
               <p className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -111,7 +111,7 @@ export default function Footer() {
               <ul className="space-y-3 text-sm">
                 <li className="flex items-start gap-3 text-gray-300">
                   <MapPin size={16} className="text-yellow-400 mt-0.5 flex-shrink-0" />
-                  <span>1 Paradise Avenue, Education District,<br />Lagos, Nigeria</span>
+                  <span>44 Ekpo Abasi Street,<br />Calabar, Cross River State</span>
                 </li>
                 <li>
                   <a href="tel:+2348000000000" className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors">
@@ -171,7 +171,7 @@ export default function Footer() {
         {/* ── Bottom bar ──────────────────────────────────────────────────── */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm text-gray-400">
-            <p>© {new Date().getFullYear()} Paradise International Academy. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Paradise International Academy (Creche and Schools). All rights reserved.</p>
             <div className="flex gap-5">
               <Link to="/privacy"       className="hover:text-yellow-400 transition-colors">Privacy Policy</Link>
               <Link to="/terms"         className="hover:text-yellow-400 transition-colors">Terms of Use</Link>

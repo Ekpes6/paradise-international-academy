@@ -37,7 +37,7 @@ export default function StudentPortalPage() {
 
   return (
     <>
-      <Helmet><title>Student Portal | Paradise International Academy</title></Helmet>
+      <Helmet><title>Student Portal | Paradise International Academy (Creche and Schools)</title></Helmet>
 
       <div className="min-h-screen bg-gray-50 flex flex-col">
         {/* Header */}

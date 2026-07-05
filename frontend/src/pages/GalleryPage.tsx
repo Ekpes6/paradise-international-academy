@@ -39,7 +39,7 @@ export default function GalleryPage() {
   return (
     <>
       <Helmet>
-        <title>Gallery | Paradise International Academy</title>
+        <title>Gallery | Paradise International Academy (Creche and Schools)</title>
         <meta name="description" content="Browse photos from Paradise International Academy — academics, sports, arts, STEM, events and everyday school life." />
       </Helmet>
 

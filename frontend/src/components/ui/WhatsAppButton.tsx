@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const WHATSAPP_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER ?? '+2348000000000'
 const MESSAGE = encodeURIComponent(
-  "Hello! I'd like to know more about Paradise International Academy. Could you please assist me?"
+  "Hello! I'd like to know more about Paradise International Academy (Creche and Schools). Could you please assist me?"
 )
 
 export default function WhatsAppButton() {

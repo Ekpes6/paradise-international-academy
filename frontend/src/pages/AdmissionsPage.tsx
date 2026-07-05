@@ -38,7 +38,7 @@ function PageHero() {
           Admissions
         </motion.h1>
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="text-gray-200 text-xl max-w-2xl mx-auto">
-          Begin your child's journey to excellence at Paradise International Academy.
+          Begin your child's journey to excellence at Paradise International Academy (Creche and Schools).
         </motion.p>
       </div>
     </div>
@@ -201,7 +201,7 @@ function ApplicationForm() {
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="bg-green-50 border border-green-200 rounded-3xl p-10 text-center">
             <CheckCircle2 size={56} className="text-green-500 mx-auto mb-4" />
             <h3 className="font-serif font-bold text-2xl text-gray-900 mb-2">Application Received!</h3>
-            <p className="text-gray-600">Thank you for applying to Paradise International Academy. Our admissions team will contact you within 48 hours to arrange the next steps.</p>
+            <p className="text-gray-600">Thank you for applying to Paradise International Academy (Creche and Schools). Our admissions team will contact you within 48 hours to arrange the next steps.</p>
           </motion.div>
         ) : (
           <motion.form
@@ -342,8 +342,8 @@ export default function AdmissionsPage() {
   return (
     <>
       <Helmet>
-        <title>Admissions | Paradise International Academy</title>
-        <meta name="description" content="Apply for admission to Paradise International Academy. Learn about our process, requirements, fees, and download forms." />
+        <title>Admissions | Paradise International Academy (Creche and Schools)</title>
+        <meta name="description" content="Apply for admission to Paradise International Academy (Creche and Schools). Learn about our process, requirements, fees, and download forms." />
       </Helmet>
       <PageHero />
       <ProcessSection />

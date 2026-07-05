@@ -52,7 +52,7 @@ export default function AdminPanelPage() {
 
   return (
     <>
-      <Helmet><title>Admin Panel | Paradise International Academy</title></Helmet>
+      <Helmet><title>Admin Panel | Paradise International Academy (Creche and Schools)</title></Helmet>
 
       <div className="flex h-screen bg-gray-100 overflow-hidden">
         {/* ── Sidebar ─────────────────────────────────────────────────────── */}

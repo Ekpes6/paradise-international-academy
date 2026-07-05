@@ -50,7 +50,7 @@ function HistorySection() {
             <span className="section-label">Our History</span>
             <h2 className="section-title mt-2 mb-5">A Journey of Two Decades</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Paradise International Academy was founded in 2005 by a group of passionate educators and community leaders
+              Paradise International Academy (Creche and Schools) was founded in 2005 by a group of passionate educators and community leaders
               who believed that Nigerian children deserved access to world-class education without leaving home.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -187,7 +187,7 @@ function LeadershipSection() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5 }} className="text-center mb-12">
           <span className="section-label">Our Team</span>
           <h2 className="section-title mt-2">Leadership</h2>
-          <p className="section-subtitle mx-auto mt-3">Meet the passionate educators who guide Paradise International Academy.</p>
+          <p className="section-subtitle mx-auto mt-3">Meet the passionate educators who guide Paradise International Academy (Creche and Schools).</p>
         </motion.div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {leadership.map((l, i) => (
@@ -216,8 +216,8 @@ export default function AboutPage() {
   return (
     <>
       <Helmet>
-        <title>About Us | Paradise International Academy</title>
-        <meta name="description" content="Learn about Paradise International Academy's history, vision, mission, core values, and leadership team." />
+        <title>About Us | Paradise International Academy (Creche and Schools)</title>
+        <meta name="description" content="Learn about Paradise International Academy (Creche and Schools)&#39;s history, vision, mission, core values, and leadership team." />
       </Helmet>
       <PageHero />
       <HistorySection />

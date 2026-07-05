@@ -30,7 +30,7 @@ export default function AboutPreview() {
             <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-[4/3] bg-primary-100">
               <img
                 src="/images/about-main.jpg"
-                alt="Paradise International Academy campus"
+                alt="Paradise International Academy (Creche and Schools) campus"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -77,7 +77,7 @@ export default function AboutPreview() {
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Founded on the conviction that excellent education and strong character belong together,
-              Paradise International Academy has spent over two decades shaping confident, compassionate
+              Paradise International Academy (Creche and Schools) has spent over two decades shaping confident, compassionate
               Nigerian leaders ready to excel on the global stage.
             </p>
             <p className="text-gray-600 leading-relaxed mb-7">

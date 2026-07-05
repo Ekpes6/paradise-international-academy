@@ -41,7 +41,7 @@ const contactCards = [
     icon: MapPin,
     title: 'Visit Us',
     color: 'bg-primary-600',
-    lines: ['1 Paradise Avenue, Education District,', 'Lagos, Nigeria'],
+    lines: ['44 Ekpo Abasi Street,', 'Calabar, Cross River State'],
   },
   {
     icon: Phone,
@@ -85,8 +85,8 @@ export default function ContactPage() {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Paradise International Academy</title>
-        <meta name="description" content="Get in touch with Paradise International Academy. We're here to answer your questions." />
+        <title>Contact Us | Paradise International Academy (Creche and Schools)</title>
+        <meta name="description" content="Get in touch with Paradise International Academy (Creche and Schools). We're here to answer your questions." />
       </Helmet>
 
       <PageHero />
@@ -132,8 +132,8 @@ export default function ContactPage() {
               <h2 className="section-title mb-6">Find Us on the Map</h2>
               <div className="rounded-3xl overflow-hidden shadow-card h-80 bg-gray-200">
                 <iframe
-                  title="Paradise International Academy Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.45649754567!2d3.1191874578124952!3d6.548055100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1706000000000!5m2!1sen!2sng"
+                  title="Paradise International Academy (Creche and Schools) Location"
+                  src="https://maps.google.com/maps?q=44+Ekpo+Abasi+Street,+Calabar,+Cross+River,+Nigeria&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

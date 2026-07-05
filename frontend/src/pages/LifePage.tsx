@@ -70,7 +70,7 @@ function ExtracurricularSection() {
 
 const awards = [
   { year: '2025', title: 'National Robotics Championship — 1st Place', body: 'National Education Technology Council' },
-  { year: '2024', title: 'Best Primary School — Lagos State Education Awards', body: 'Lagos State Ministry of Education' },
+  { year: '2024', title: 'Best Primary School — Cross River State Education Awards', body: 'Cross River State Ministry of Education' },
   { year: '2024', title: 'Outstanding WAEC Results — School of Excellence', body: 'West African Examinations Council' },
   { year: '2023', title: 'Safest School Environment Award', body: 'Nigeria Schools Safety Alliance' },
   { year: '2022', title: 'ICT School of the Year', body: 'Federal Ministry of Education' },
@@ -108,8 +108,8 @@ export default function LifePage() {
   return (
     <>
       <Helmet>
-        <title>Life at Paradise | Paradise International Academy</title>
-        <meta name="description" content="Discover sports, arts, clubs, excursions, awards and the vibrant everyday life at Paradise International Academy." />
+        <title>Life at Paradise | Paradise International Academy (Creche and Schools)</title>
+        <meta name="description" content="Discover sports, arts, clubs, excursions, awards and the vibrant everyday life at Paradise International Academy (Creche and Schools)." />
       </Helmet>
       <PageHero />
       <ExtracurricularSection />

@@ -12,7 +12,7 @@ function PageHero() {
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-yellow-500 via-white to-green-500" />
       <div className="max-w-7xl mx-auto px-4 relative z-10 text-center">
         <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="font-serif text-5xl md:text-6xl font-bold text-white mb-4">For Parents</motion.h1>
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.15 }} className="text-gray-200 text-xl max-w-2xl mx-auto">Everything you need to support your child's journey at Paradise International Academy.</motion.p>
+        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.15 }} className="text-gray-200 text-xl max-w-2xl mx-auto">Everything you need to support your child's journey at Paradise International Academy (Creche and Schools).</motion.p>
       </div>
     </div>
   )
@@ -125,7 +125,7 @@ function UniformSection() {
 // FAQs
 const faqs = [
   { q: 'What are the school hours?', a: 'School opens at 7:30 am for morning assembly. Classes run from 8:00 am to 2:30 pm for primary, and 8:00 am to 3:00 pm for secondary. After-school clubs run until 4:30 pm.' },
-  { q: 'Is there a school bus service?', a: 'Yes. We operate a school bus service covering major routes across Lagos. Contact the school office for routes and fees.' },
+  { q: 'Is there a school bus service?', a: 'Yes. We operate a school bus service covering major routes across Calabar. Contact the school office for routes and fees.' },
   { q: 'How often are parent-teacher meetings?', a: 'PTA meetings are held once per term. Individual parent-teacher conferences can be scheduled anytime through the Parent Portal.' },
   { q: 'How are fees paid?', a: 'Fees can be paid online via the Parent Portal using Paystack (card, transfer, USSD), or via bank transfer to our designated account. Receipts are issued automatically.' },
   { q: 'What is the school\'s policy on mobile phones?', a: 'Mobile phones are not permitted in classrooms. Students in SSS 2–3 may possess phones, which must be switched off and stored during school hours.' },
@@ -209,8 +209,8 @@ export default function ParentsPage() {
   return (
     <>
       <Helmet>
-        <title>For Parents | Paradise International Academy</title>
-        <meta name="description" content="School calendar, uniform guide, FAQs, downloads, and parent portal access for Paradise International Academy families." />
+        <title>For Parents | Paradise International Academy (Creche and Schools)</title>
+        <meta name="description" content="School calendar, uniform guide, FAQs, downloads, and parent portal access for Paradise International Academy (Creche and Schools) families." />
       </Helmet>
       <PageHero />
       <CalendarSection />

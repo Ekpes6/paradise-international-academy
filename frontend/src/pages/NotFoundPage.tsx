@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 export default function NotFoundPage() {
   return (
     <>
-      <Helmet><title>Page Not Found | Paradise International Academy</title></Helmet>
+      <Helmet><title>Page Not Found | Paradise International Academy (Creche and Schools)</title></Helmet>
       <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 py-20">
         <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
           <div className="w-24 h-24 rounded-full bg-primary-100 flex items-center justify-center mx-auto mb-6">

@@ -15,8 +15,8 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Paradise International Academy | Excellence in Education — Nigeria</title>
-        <meta name="description" content="Paradise International Academy is a premier Nigerian school offering world-class education from Crèche to Secondary. Apply for admission today." />
+        <title>Paradise International Academy (Creche and Schools) | Excellence in Education — Nigeria</title>
+        <meta name="description" content="Paradise International Academy (Creche and Schools) is a premier Nigerian school offering world-class education from Crèche to Secondary. Apply for admission today." />
         <link rel="canonical" href="https://paradiseinternationalacademy.com.ng/" />
       </Helmet>
 

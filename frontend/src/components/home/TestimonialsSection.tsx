@@ -10,7 +10,7 @@ const testimonials = [
     role: 'Parent — Primary 5',
     rating: 5,
     message:
-      'Paradise International Academy has been transformative for my daughter. The teachers genuinely care about each child\'s growth, and the facilities are world-class. Best decision we ever made!',
+      'Paradise International Academy (Creche and Schools) has been transformative for my daughter. The teachers genuinely care about each child\'s growth, and the facilities are world-class. Best decision we ever made!',
     avatar: '/images/testimonial-1.jpg',
   },
   {
@@ -28,7 +28,7 @@ const testimonials = [
     role: 'Alumni, 2022 Graduate',
     rating: 5,
     message:
-      'The values, discipline, and academic foundation I received at Paradise International Academy prepared me for university life and beyond. I am forever grateful to every teacher who invested in me.',
+      'The values, discipline, and academic foundation I received at Paradise International Academy (Creche and Schools) prepared me for university life and beyond. I am forever grateful to every teacher who invested in me.',
     avatar: '/images/testimonial-3.jpg',
   },
   {

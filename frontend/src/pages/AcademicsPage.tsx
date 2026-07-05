@@ -132,7 +132,7 @@ export default function AcademicsPage() {
   return (
     <>
       <Helmet>
-        <title>Academics | Paradise International Academy</title>
+        <title>Academics | Paradise International Academy (Creche and Schools)</title>
         <meta name="description" content="Explore our world-class academic programmes from Crèche to Senior Secondary School." />
       </Helmet>
       <PageHero />

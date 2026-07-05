@@ -12,7 +12,7 @@ function PageHero() {
       <div className="max-w-7xl mx-auto px-4 relative z-10 text-center">
         <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="font-serif text-5xl md:text-6xl font-bold text-white mb-4">News & Blog</motion.h1>
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="text-gray-200 text-xl max-w-2xl mx-auto">
-          Stories, achievements, and updates from the Paradise International Academy community.
+          Stories, achievements, and updates from the Paradise International Academy (Creche and Schools) community.
         </motion.p>
       </div>
     </div>
@@ -45,8 +45,8 @@ export default function NewsPage() {
   return (
     <>
       <Helmet>
-        <title>News & Blog | Paradise International Academy</title>
-        <meta name="description" content="Latest news, events, and stories from Paradise International Academy." />
+        <title>News &amp; Blog | Paradise International Academy (Creche and Schools)</title>
+        <meta name="description" content="Latest news, events, and stories from Paradise International Academy (Creche and Schools)." />
       </Helmet>
       <PageHero />
       <section ref={ref} className="py-20 bg-white">
