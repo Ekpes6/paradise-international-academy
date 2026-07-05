@@ -54,6 +54,7 @@ function AnimatedRoutes() {
             <Route path="/login"           element={<LoginPage />} />
             <Route path="/portal/parent"   element={<ParentPortal />} />
             <Route path="/portal/student"  element={<StudentPortal />} />
+            <Route path="/admin"           element={<AdminPanel />} />
             <Route path="/admin/*"         element={<AdminPanel />} />
 
             {/* 404 */}
